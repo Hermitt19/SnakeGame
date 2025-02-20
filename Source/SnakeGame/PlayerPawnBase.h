@@ -7,6 +7,7 @@
 #include "PlayerPawnBase.generated.h"
 
 class UCameraComponent;
+class ASnakeBase;
 
 UCLASS()
 class SNAKEGAME_API APlayerPawnBase : public APawn
