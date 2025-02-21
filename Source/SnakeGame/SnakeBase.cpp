@@ -61,12 +61,12 @@ void ASnakeBase::Move()
 		MovementVector.X -= MovementSpeed;
 		break;
 
-	case EMovementDirection::LEFT:
-		MovementVector.X += MovementSpeed;
+	case EMovementDirection::RIGHT:
+		MovementVector.Y += MovementSpeed;
 		break;
 
-	case EMovementDirection::RIGHT:
-		MovementVector.X -= MovementSpeed;
+	case EMovementDirection::LEFT:
+		MovementVector.Y -= MovementSpeed;
 		break;
 	}
 
