@@ -79,9 +79,7 @@ void APlayerPawnBase::HandlePlayerHorizontalInput(float value)
 	}
 
 
-	UFUNCTION()
-	void SetFirstElemType();
-	void SetFirstElemType_Implementation();
+	
 }
 
 
