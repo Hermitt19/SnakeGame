@@ -19,7 +19,7 @@ void ASnakeBase::BeginPlay()
 {
 	Super::BeginPlay();
 	SetActorTickInterval(MovementSpeed);
-	AddSnakeElement(4);
+	AddSnakeElement(5);
 }
 
 // Called every frame

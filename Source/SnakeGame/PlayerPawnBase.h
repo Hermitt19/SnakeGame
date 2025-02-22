@@ -41,9 +41,9 @@ public:
 	void CreateSnakeActor();
 
 	UFUNCTION()
-	void HandlePlayerVerticalInput(float value);
+	void HandlerPlayerVerticalInput(float value);
 	UFUNCTION()
-	void HandlePlayerHorizontalInput(float value);
+	void HandlerPlayerHorizontalInput(float value);
 
 	
 };
