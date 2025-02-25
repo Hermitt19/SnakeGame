@@ -51,10 +51,12 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+    UFUNCTION(BlueprintCallable)
 	void AddSnakeElement(int ElementsNum = 1);
-
+	UFUNCTION(BlueprintCallable)
 	void Move();
+	UFUNCTION()
+	void SnakeElementOverlap(ASnakeElemBase* OverlappedElement,AActor*Other);
 	
 	
 
