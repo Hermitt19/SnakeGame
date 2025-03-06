@@ -43,10 +43,7 @@ void ASnakeElemBase::Interact(AActor* Interactor, bool bIsHead)
 }
 
 
-void ASnakeElemBase::SetFirstElementType()
-{
 
-}
 
 void ASnakeElemBase::SetFirstElementType_Implementation()
 {
@@ -79,8 +76,5 @@ void ASnakeElemBase::ToggleCollision()
 	}
 }
 
-void ASnakeElemBase::Interact(AActor* Interactor, bool bIsHead)
-{
 
-}
 

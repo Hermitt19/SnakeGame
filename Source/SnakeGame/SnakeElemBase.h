@@ -35,7 +35,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void Interact(AActor* Interactor, bool bIsHead);
 
 	UFUNCTION(BlueprintNativeEvent)
 	void SetFirstElementType();
