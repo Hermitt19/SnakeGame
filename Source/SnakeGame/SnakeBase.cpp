@@ -12,7 +12,7 @@ ASnakeBase::ASnakeBase()
 	PrimaryActorTick.bCanEverTick = true;
 	ElementSize = 100.f;
 	MovementSpeed = 0,5.f;
-	LastMoveDirection = EMovementDirection::UP;
+	LastMoveDirection = EMovementDirection::DOWN;
 }
 
 // Called when the game starts or when spawned
